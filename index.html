@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .test1 {
+        color: red !important;
+      }
+      .test2 {
+        color: blue;
+      }
+      .box1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      * {
+        font-size: 18px;
+      }
+      p {
+        color: red;
+      }
+      @media (max-width: 768px) {
+        * {
+          font-size: 16px;
+        }
+        p {
+          color: blue;
+        }
+      }
+      @media (max-width: 400px) {
+        * {
+          font-size: 16px;
+        }
+        p {
+          color: yellow;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p class="test1 test2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At, praesentium.
+    </p>
+    <!--  -->
+    <table></table>
+    <!--  -->
+    <img src="related-2.jpg" alt="lightning" />
+
+    <!--  -->
+    <div class="box1">
+      <p>column1</p>
+      <p>column2</p>
+      <p>column3</p>
+    </div>
+  </body>
+</html>
